@@ -9,12 +9,12 @@ let index = 0;
 
 setInterval(()=>{
     if(dy!=0){
-        playerElm.style.backgroundImage = `url(/img/adventure_girl/png/Jump\ \(1\)${index++}.png)`;
+        playerElm.style.backgroundImage = `url(img/adventure_girl/png/Jump\ \(1\)${index++}.png)`;
     }else if(dx!=0){
         console.log(index);
-        playerElm.style.backgroundImage = `url(/img/adventure_girl/png/Run\ \(1\)${index++}.png)`;
+        playerElm.style.backgroundImage = `url(img/adventure_girl/png/Run\ \(1\)${index++}.png)`;
     }else{
-        playerElm.style.backgroundImage = `url(/img/adventure_girl/png/Idle\ \(1\)${index++}.png)`;
+        playerElm.style.backgroundImage = `url(img/adventure_girl/png/Idle\ \(1\)${index++}.png)`;
     }
     if(index > 9 && dx != 0) {
         index=1;
