@@ -91,10 +91,10 @@ addEventListener('keypress', ({key})=>{
     }
 });
 
-let j=0;
-function repaint(timestamp){
-    console.log('painted' + j++, timestamp);
-    requestAnimationFrame(repaint);
-}
+// let j=0;
+// function repaint(timestamp){
+//     console.log('painted' + j++, timestamp);
+//     requestAnimationFrame(repaint);
+// }
 
-requestAnimationFrame(repaint);
+// requestAnimationFrame(repaint);
