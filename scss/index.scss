@@ -13,17 +13,23 @@ body{
     background-image: url(../img/graveyardtilesetnew/png/BG.png);
     height: 100vh;
     overflow: hidden;
+    background-size: cover;
+}
+
+#arrow {
+    position: absolute;
+    left: 20px;
+    bottom: 100px;
 }
 
 #player{
-
     background-image: url(../img/adventure_girl/png/Idle\ \(1\).png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 150px;
     height: 150px;
     position: absolute;
-    bottom: 1px;
+    bottom: 550px;
 }
 
 .turn{
@@ -31,6 +37,7 @@ body{
 }
 
 #ground{
+    
     //background-color: rgb(74, 201, 74);
     background-image: url(../img/graveyardtilesetnew/png/Objects/Sign.png);
     background-image: url(../img/graveyardtilesetnew/png/Tiles/Tile\ \(2\).png);
